@@ -1,8 +1,44 @@
 * {
 	font-family: 'Times New Roman', serif;
-	background-color: black;
+	box-sizing: border-box;
+}
+
+html {
+	overflow: scroll;
+}
+
+body {
+	position: relative;
+	margin: 0;
 }
 
 h1 {
-	color: white;
+	color: black;
+	font-family: 'Bona Nova', serif;
+	display: block;
+	text-align: center;
+	position: relative;
+	padding: 200px 50px 50px 50px;
+	font-size: 70px;
+}
+
+header nav {
+	font-family: 'Bona Nova', serif;
+	position: fixed;
+	height: 50px;
+	background-color: rgba(176, 196, 222, 50%);
+	z-index: 10;
+	top: 0px;
+	text-align: right;
+	width: 100%;
+}
+
+header nav li {
+	height: 50px;
+	display: inline-block;
+	margin: 0px 50px 0px 50px;
+}
+
+p {
+	font-size: 25px;
 }
